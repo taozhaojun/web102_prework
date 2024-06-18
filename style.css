@@ -73,3 +73,15 @@ button {
     margin: 1%;
     border-radius: 7px;
 }
+
+/* Add flexbox to the stats-container */
+.stats-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Add hover effect to the stats-container */
+.stats-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+}
